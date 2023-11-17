@@ -5,6 +5,7 @@ import "./button.css";
  * @param {ComponentProps<"button"> & {fullWidth: boolean}} props
  */
 const Button = ({ children, fullWidth, ...props }) => {
+  /** We are dynamically setting the class of the button based it's props */
   const getClassName = () => {
     let className = "btn";
     if (fullWidth) {
