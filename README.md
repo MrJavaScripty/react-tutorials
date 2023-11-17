@@ -55,3 +55,27 @@ The code for each section of what I will be going through will be stored in it's
 ### Important
 
 Be sure to read the README of each of these folders in case there are any additional instructions or explanations on the concepts covered in that section.
+
+## If you want to get a head start
+If you're looking to learn React on your own and don't know where to start. Here are a few resources you can use to get started.
+
+#### Video Tutorials:
+
+1. [Codevolution](https://www.youtube.com/@Codevolution)
+   - [React Hooks](https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A) (highly recommended for starting)
+
+2. [Jack Herrington](https://www.youtube.com/@jherr/playlists)
+   - [3 React Mistakes, 1 App Killer](https://youtu.be/QuLfCUh-iwI?si=y0oGTuGWC6aS_02j)
+   - [Mastering React Context](https://youtu.be/MpdFj8MEuJA?si=GUOAhinEL2MEsbf2)
+   - [Mastering usEffect](https://youtu.be/dH6i3GurZW8?si=hipB5iIR9vnEs6ZS)
+
+3. [WebDevSimplified](https://www.youtube.com/@WebDevSimplified)
+   - [React Hooks Tutorial](https://youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h&si=N3ufPftpxXd7gVhH)
+   - [Random Shorts about Web Development](https://youtube.com/playlist?list=PLZlA0Gpn_vH8nhrx0Hyi1-S7ycCovcYB0&si=Rpb_V-j2Yq-Woivu)
+
+
+#### Advanced Tutorials:
+1. [Matt Pocock](https://www.youtube.com/@mattpocockuk) - He will teach you everyting you need to know about TypeScript. Because JS isn't a strictly typed language we need something to help us make sure we don't write buggy code. TypeScript comes to fill that gap and this man is an absolute wizard.
+2. [Codevolution](https://youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&si=E5Uq7o1ItCWocNHT) This playlist is by the same guy I recommended first. The difference is that this playlist focuses on using React with TypeScript and talks about a few different techniques you can use to make your code more readable and maintainable.
+
+
