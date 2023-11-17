@@ -78,7 +78,7 @@ And what gets rendered to the DOM is this:
 <button>Hello World</button>
 ```
 
-## The {...props} spread operator
+## The `{...props}` spread operator
 
 We are using the spread operator to spread out all the props that are passed to the button component.
 
