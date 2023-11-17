@@ -1,0 +1,13 @@
+.btn {
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  transition: background-color 150ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--color-blue-dark);
+}
