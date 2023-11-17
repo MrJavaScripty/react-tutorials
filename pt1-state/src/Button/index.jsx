@@ -2,11 +2,19 @@ import { ComponentProps } from "react";
 import "./button.css";
 
 /**
- * @param {ComponentProps<"button">} props
+ * @param {ComponentProps<"button"> & {fullWidth: boolean}} props
  */
-const Button = ({ children, ...props }) => {
+const Button = ({ children, fullWidth, ...props }) => {
+  const getClassName = () => {
+    let className = "btn";
+    if (fullWidth) {
+      className += " full-width";
+    }
+    return className;
+  };
+
   return (
-    <button className="btn" {...props}>
+    <button className={getClassName()} {...props}>
       {children}
     </button>
   );

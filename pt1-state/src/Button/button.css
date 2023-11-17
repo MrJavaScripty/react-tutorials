@@ -6,8 +6,14 @@
   border: 1px solid transparent;
   border-radius: 12px;
   transition: background-color 150ms ease-in-out;
+  max-width: max-content;
 }
 
 .btn:hover {
   background-color: var(--color-blue-dark);
+}
+
+.btn.full-width {
+  width: 100%;
+  max-width: none;
 }
