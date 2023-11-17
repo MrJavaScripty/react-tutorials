@@ -54,7 +54,7 @@ The code for each section of what I will be going through will be stored in it's
 
 ### Important
 
-Be sure to read the README of each of these folders in case there are any additional instructions or explanations on the concepts covered in that section.
+Be sure to read the README in each of these __folders AND subfolders__ in case there are any additional instructions or explanations on the concepts covered in that section.
 
 ## If you want to get a head start
 If you're looking to learn React on your own and don't know where to start. Here are a few resources you can use to get started.
