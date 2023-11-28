@@ -1,0 +1,8 @@
+button {
+ display: flex;
+ background-color: white;
+ color: black;
+ padding: 0.5rem 1rem;
+ border-color: transparent;
+ border-radius: 12px;
+}

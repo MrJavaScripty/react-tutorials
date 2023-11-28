@@ -1,0 +1,41 @@
+.todo-list-item {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #353535;
+ padding: 0.5rem;
+ border-radius: 8px;
+}
+
+.todo-list-item.completed p {
+ text-decoration: line-through;
+}
+
+.todo-list-item .complete-button {
+ display: inline;
+ background-color: forestgreen;
+ color: white;
+ aspect-ratio: 1 / 1;
+ border-radius: 100%;
+ cursor: pointer;
+ height: 2rem;
+ padding: 0;
+ border: none;
+}
+
+.complete-button:hover {
+ background-color: #2e8b57;
+}
+
+.todo-list-item .button-group {
+ display: flex;
+ gap: 0.5rem;
+}
+
+.todo-list-item .button-group .delete-button {
+ background-color: transparent;
+ color: white;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+}

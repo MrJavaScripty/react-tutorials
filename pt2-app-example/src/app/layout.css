@@ -1,0 +1,51 @@
+.main-navigation,
+.content {
+ max-width: 75dvw;
+ margin-inline: auto;
+}
+
+.main-navigation {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-block: 0.5rem;
+ padding-inline: 1rem;
+}
+
+.main-navigation .logo {
+ font-size: 2rem;
+}
+
+.main-navigation a {
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ gap: 0.25rem;
+}
+
+.main-navigation a:not(.logo) {
+ background-color: white;
+ color: black;
+ padding: 0.5rem 1rem;
+ transition: font-weight 125ms ease-in-out, background-color 125ms ease-in-out;
+ border-radius: 12px;
+ font-weight: 500;
+}
+
+.main-navigation a :where(span, svg) {
+ color: inherit;
+ fill: inherit;
+}
+
+/* Select all a tag hover states except first one */
+.main-navigation a:not(.logo):hover {
+ background-color: #f0f0f0;
+}
+
+.main-navigation a:visited {
+ color: inherit;
+}
+
+.content {
+ margin-top: 3rem;
+}
